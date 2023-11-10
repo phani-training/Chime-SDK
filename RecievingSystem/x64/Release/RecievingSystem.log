@@ -1,0 +1,7 @@
+﻿  RecievingSystem.cpp
+C:\chime\build\RestApi.h(75,31): warning C4101: 'exception': unreferenced local variable
+RecievingSystem.obj : error LNK2001: unresolved external symbol "public: __cdecl chime::ConsoleLogger::ConsoleLogger(enum chime::LogLevel const &)" (??0ConsoleLogger@chime@@QEAA@AEBW4LogLevel@1@@Z)
+RecievingSystem.obj : error LNK2001: unresolved external symbol "public: static class std::unique_ptr<class chime::AudioVideoController,struct std::default_delete<class chime::AudioVideoController> > __cdecl chime::DefaultAudioVideoController::Create(struct chime::MeetingSessionConfiguration,class std::shared_ptr<struct chime::MeetingSessionDependencies>)" (?Create@DefaultAudioVideoController@chime@@SA?AV?$unique_ptr@VAudioVideoController@chime@@U?$default_delete@VAudioVideoController@chime@@@std@@@std@@UMeetingSessionConfiguration@2@V?$shared_ptr@UMeetingSessionDependencies@chime@@@4@@Z)
+RecievingSystem.obj : error LNK2001: unresolved external symbol "public: __cdecl webrtc::RtpCodecCapability::~RtpCodecCapability(void)" (??1RtpCodecCapability@webrtc@@QEAA@XZ)
+RecievingSystem.obj : error LNK2001: unresolved external symbol "public: __cdecl webrtc::RtpCodecCapability::RtpCodecCapability(void)" (??0RtpCodecCapability@webrtc@@QEAA@XZ)
+C:\chime\build\x64\Release\RecievingSystem.exe : fatal error LNK1120: 4 unresolved externals
