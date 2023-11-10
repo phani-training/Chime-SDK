@@ -1,0 +1,1 @@
+{  "name": "chime-testapp", "builtin-baseline": "a429a35bb5d9467aa8d22ca00e747445eb893414", "version-string": "0.0.1",  "dependencies": [    "protobuf"  ]}
